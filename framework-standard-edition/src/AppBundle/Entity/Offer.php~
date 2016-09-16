@@ -1,0 +1,36 @@
+<?php
+
+namespace AppBundle\Entity;
+
+/**
+ * Offer
+ */
+class Offer
+{
+    /**
+     * @var int
+     */
+    private $id;
+    
+    /**
+     * @var int
+     */
+    private $name;
+    
+    /**
+     * @var int
+     */
+    private $creationDate;
+    
+
+    /**
+     * Get id
+     *
+     * @return int
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+}
+
